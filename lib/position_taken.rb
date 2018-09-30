@@ -19,7 +19,7 @@
 #   else
 #     puts "The space is taken"
 #   end
-  
+board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]  
   if board[index] = "X"
     puts "The space is taken"
   elsif board[index] = "O"
