@@ -1,17 +1,17 @@
 # code your #position_taken? method here!
-puts "Welcome to Tic Tac Toe!"
+# puts "Welcome to Tic Tac Toe!"
 
-board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+# board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
-puts "Where would you like to go?"
+# puts "Where would you like to go?"
 
-user_input = gets.strip
+# user_input = gets.strip
 
-index = input_to_index(user_input)
+# index = input_to_index(user_input)
 
-move(board, index, "X")
+# move(board, index, "X")
 
-display_board(board)
+# display_board(board)
 
 # def position_taken?(index)
 #   if board[index] == " "
