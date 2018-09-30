@@ -14,12 +14,6 @@ move(board, index, "X")
 display_board(board)
 
 def position_taken?(index)
-  if board[index] == " "
-    puts "The space is empty"
-  else
-    puts "The space is taken"
-  end
-board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]  
   if board[index] = "X"
     puts "The space is taken"
   elsif board[index] = "O"
@@ -27,4 +21,5 @@ board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
   else
     puts "The space is empty"
   end
+end
   
